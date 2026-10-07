@@ -36,4 +36,5 @@ grid-area: sp;
 
 #introImage{
     grid-area:ii;
+width: 100px;
 }
