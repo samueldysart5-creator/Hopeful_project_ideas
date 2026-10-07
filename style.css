@@ -1,0 +1,39 @@
+.homePicture{
+display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ii;
+}
+
+
+.afterScroll{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: 
+    ip ip ip
+    si sp sp
+    ;
+}
+
+
+.introParagraph{
+grid-area: ip;
+
+}
+
+.secondParagraph{
+grid-area: sp;
+
+}
+
+
+.secondPicture{
+    grid-area:si;
+}
+
+
+.introImage{
+    grid-area:ii;
+}
