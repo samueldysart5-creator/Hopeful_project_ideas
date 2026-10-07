@@ -1,8 +1,7 @@
 #homePicture{
 
     display: grid;
-    height: 100%;
-    width: 100%;
+
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: ii;
@@ -39,4 +38,6 @@
 
 #introImage{
     grid-area:ii;
+    height: 100%;
+    width: 100%;
 }
