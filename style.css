@@ -1,6 +1,8 @@
 #homePicture{
 
-display: grid;
+    display: grid;
+    height: 100%;
+    width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: ii;
@@ -20,12 +22,12 @@ display: grid;
 
 
 #introParagraph{
-grid-area: ip;
+    grid-area: ip;
 
 }
 
 #secondParagraph{
-grid-area: sp;
+    grid-area: sp;
 
 }
 
