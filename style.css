@@ -12,8 +12,8 @@ display: grid;
     grid-template-rows: 1fr 1fr;
 
     grid-template-areas: 
-    ip ip ip
-    si sp sp
+    "ip ip ip"
+    "si sp sp"
     ;
 }
 
