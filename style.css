@@ -1,4 +1,4 @@
-.homePicture{
+#homePicture{
 display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -6,7 +6,7 @@ display: grid;
 }
 
 
-.afterScroll{
+#afterScroll{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -18,22 +18,22 @@ display: grid;
 }
 
 
-.introParagraph{
+#introParagraph{
 grid-area: ip;
 
 }
 
-.secondParagraph{
+#secondParagraph{
 grid-area: sp;
 
 }
 
 
-.secondPicture{
+#secondPicture{
     grid-area:si;
 }
 
 
-.introImage{
+#introImage{
     grid-area:ii;
 }
