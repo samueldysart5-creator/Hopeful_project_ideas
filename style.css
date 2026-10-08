@@ -1,4 +1,12 @@
-html, body{
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    
+    
+    html, body{
     background-color: mediumslateblue;
     color:black;
     padding: 0;
@@ -10,13 +18,9 @@ html, body{
 
 #homePicture{
 
-    display: grid;
-    width: 100%;
-    height: 100%;
+width: 100%;
+      height: 100vh;
 
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: ii;
 }
 
 
@@ -49,6 +53,13 @@ html, body{
 
 
 #introImage{
-    grid-area:ii;
+   /* grid-area:ii;
 height: 100vh;
+width: 100vw;
+*/
+width: 100%;
+      height: 100%;
+      object-fit: cover; 
+      display: block;
+
 }
