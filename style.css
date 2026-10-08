@@ -7,14 +7,14 @@ html, body{
 }
 
 
-#homePicture{
+/*#homePicture{
 
     display: grid;
 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: ii;
-}
+}*/
 
 
 #afterScroll{
@@ -46,6 +46,7 @@ html, body{
 
 
 #introImage{
-    grid-area:ii;
+    /*grid-area:ii;*/
+    height: 100%;
 
 }
