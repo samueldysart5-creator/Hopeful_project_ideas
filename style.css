@@ -3,18 +3,21 @@ html, body{
     color:black;
     padding: 0;
     margin:0;
+    width: 100%;
     height: 100%;
 }
 
 
-/*#homePicture{
+#homePicture{
 
     display: grid;
+    width: 100%;
+    height: 100%;
 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: ii;
-}*/
+}
 
 
 #afterScroll{
@@ -46,8 +49,7 @@ html, body{
 
 
 #introImage{
-    /*grid-area:ii;*/
-    height: 100%;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvleOnnH4LuzIQ-Uzbe3YpPPqoHEtByfLgjyve_ToTCg&s=10");
+    grid-area:ii;
+
 
 }
